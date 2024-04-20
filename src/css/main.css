@@ -1,0 +1,41 @@
+main{
+
+    background-image: url(/src/img/manga\ desk\ 1.png);
+}
+main > p {
+    color: #FFF;
+    font-family: Murecho;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+main > button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+    position: relative;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+button > p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+ 
+
+}
+

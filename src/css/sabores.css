@@ -1,0 +1,73 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 225px;
+    background-color: #EEEEEE;
+}
+
+.hero-description {
+    display: flex;
+    gap: 80px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color:  #000;
+    font-family: "Murecho", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+    margin-bottom: 24px;
+}
+
+.hero-text > p{
+    color:  #000;
+    font-family: Murecho;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.question-panel {
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: Murecho;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+}
+
+.response-panel {
+    width: 80%;
+    background-color: #eee;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.question-panel:after {
+    content: '\25B6'; /* Adiciona o símbolo "▶" após o texto do botão */
+    color: black; /* Cor do símbolo "▶" */
+    font-weight: bold; /* Define a fonte como negrito */
+    float: right; /* Alinha o símbolo "▶" à direita */
+    margin-left: 5px; /* Adiciona margem à esquerda do símbolo "▶" */
+}
+
+.active:after {
+    content: "\25BC"; /* Altera o símbolo "▶" para "▼" quando o botão está ativo (aberto) */
+}
