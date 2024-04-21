@@ -1,16 +1,16 @@
-header{
-    justify-content: space-between;
+/* Estilos para o header */
+header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
+    z-index: 999;
+    transition: 0.5s ease;
 }
 
-nav{
-    display: flex;
-}
-
-a{  
+/* Estilos para os itens de navegação */
+header .navegation .navegation-itens a {
     text-decoration: none;
     font-family: "Murecho", sans-serif;
     color: #FFF;
@@ -19,10 +19,30 @@ a{
     font-weight: 400;
     line-height: 150%; /* 36px */
     margin-right: 40px;
+    transition: 0.3s ease;
+    position: relative; /* Adicionado para posicionamento do pseudo-elemento */
 }
 
-header > img{
+/* Estilos para o pseudo-elemento da linha */
+header .navegation .navegation-itens a::before {
+    content: "";
+    position: absolute;
+    background: #FFF;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+/* Estilos para o pseudo-elemento da linha ao passar o mouse */
+header .navegation .navegation-itens a:hover::before {
+    width: 100%;
+}
+
+/* Estilos para a imagem do header */
+header > img {
     width: 90px;
     height: 90px;
+    margin-top: 10px;
 }
-

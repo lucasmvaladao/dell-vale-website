@@ -11,79 +11,87 @@
 <body>
     <header>
         <img src="src/img/logodelvalle.svg" alt="logo del valle">
-        <nav>
-            <a target="_self" href="#sabores">Sabores</a>
-            <a target="_self" href="#campanha">Campanhas</a>
-            <a target="_self" href="#time">Time</a>
-            <a target="_self" href="#contatos">Contatos</a>
-        </nav>
+        <div class="navegation">
+            <nav class="navegation-itens">
+                <a target="_self" href="#sabores">Sabores</a>
+                <a target="_self" href="#campanha">Campanhas</a>
+                <a target="_self" href="#time">Time</a>
+                <a target="_self" href="#contatos">Contatos</a>
+            </nav>
+        </div>
     </header>
     <main>
-        
-            <p>
-                Desfrute de um <br>
-                sabor autêntico que <br>
-                transforma sua <br>
-                rotina
-            </p>
-            <button>Comprar</button>
-        
+            <div class="slider">
+                <img src="src/img/manga bg.png" alt="">
+            </div>
+            <div class="main-description">
+                <p>
+                    Desfrute de um <br>
+                    sabor autêntico que <br>
+                    transforma sua <br>
+                    rotina
+                </p>
+                <a href="https://andina.nasuacasa.coca-cola.com.br/">Comprar</a>
+            </div>
+            
     </main>
 
-    <section id="sabores" class="hero">
-        <div class="hero-description">
-            <div class="hero-text">
-                <h1>Del Valle Sabor Manga</h1>
-                <p>Desfrute do sabor tropical da manga em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura da manga em uma bebida refrescante, perfeita para suas refeições em família. Com 60% menos açúcares que a média do mercado, você pode saborear cada gota sem preocupações, enquanto aproveita a energia da vitamina C que ela proporciona.</p>
-                
-                <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>        
-                <div class="response-panel">       
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book....</p>
+    <section class="container-sabores">
+        <section id="sabores" class="hero">
+            <div class="hero-description">
+                <div class="hero-text">
+                    <h1>Del Valle Sabor Manga</h1>
+                    <p>Desfrute do sabor tropical da manga em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura da manga em uma bebida refrescante, perfeita para suas refeições em família. Com 60% menos açúcares que a média do mercado, você pode saborear cada gota sem preocupações, enquanto aproveita a energia da vitamina C que ela proporciona.</p>
+                    
+                    <!-- <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>        
+                    <div class="response-panel">       
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book....</p>
+                    </div> -->
+                </div>
+                <img src="src/img/manga 1.png" alt="">
+            </div>
+        </section>
+    
+        <section class="hero">
+            <div class="hero-description">
+                <img src="src/img/uva.png" alt="">
+                <div class="hero-text">
+                    <h1>Del Valle Sabor Uva</h1>
+                    <p>Desfrute da elegância e nutrição da uva em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura natural da uva em uma bebida refrescante, perfeita para suas refeições em família. Com 60% menos açúcares que a média do mercado, você pode saborear cada gota sem preocupações com excesso de açúcar.</p>
                 </div>
             </div>
-            <img src="src/img/manga 1.png" alt="">
-        </div>
-    </section>
-
-    <section class="hero">
-        <div class="hero-description">
-            <img src="src/img/uva.png" alt="">
-            <div class="hero-text">
-                <h1>Del Valle Sabor Uva</h1>
-                <p>Desfrute da elegância e nutrição da uva em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura natural da uva em uma bebida refrescante, perfeita para suas refeições em família. Com 60% menos açúcares que a média do mercado, você pode saborear cada gota sem preocupações com excesso de açúcar.</p>
+        </section>
+    
+        <section class="hero">
+            <div class="hero-description">
+                <div class="hero-text">
+                    <h1>Del Valle Sabor Maracujá</h1>
+                    <p>Descubra o delicioso sabor e os incríveis benefícios do maracujá com Del Valle Frut! Nossa nova receita captura a essência exótica e o sabor único do maracujá em uma bebida refrescante e deliciosa, perfeita para suas refeições em família. Cada gole oferece uma explosão de frescor e um toque tropical que vai encantar seus sentidos.</p>
+                </div>
+                <img src="src/img/maracujá 1.png" alt="">
             </div>
-        </div>
-    </section>
-
-    <section class="hero">
-        <div class="hero-description">
-            <div class="hero-text">
-                <h1>Del Valle Sabor Maracujá</h1>
-                <p>Descubra o delicioso sabor e os incríveis benefícios do maracujá com Del Valle Frut! Nossa nova receita captura a essência exótica e o sabor único do maracujá em uma bebida refrescante e deliciosa, perfeita para suas refeições em família. Cada gole oferece uma explosão de frescor e um toque tropical que vai encantar seus sentidos.</p>
+        </section>
+    
+        <section class="hero">
+            <div class="hero-description">
+                <img src="src/img/goiaba 1.png" alt="">
+                <div class="hero-text">
+                    <h1>Del Valle Sabor Goiaba</h1>
+                    <p>Desfrute da suculência e dos benefícios da goiaba em cada gole com Del Valle Frut! Nossa nova receita captura o sabor delicado e a doçura natural da goiaba em uma bebida que vai encantar seus sentidos. Cada gole oferece uma explosão de frescor e um toque tropical que vai te transportar para os pomares exuberantes de goiabeiras.</p>
+                </div>
             </div>
-            <img src="src/img/maracujá 1.png" alt="">
-        </div>
-    </section>
-
-    <section class="hero">
-        <div class="hero-description">
-            <img src="src/img/goiaba 1.png" alt="">
-            <div class="hero-text">
-                <h1>Del Valle Sabor Goiaba</h1>
-                <p>Desfrute da suculência e dos benefícios da goiaba em cada gole com Del Valle Frut! Nossa nova receita captura o sabor delicado e a doçura natural da goiaba em uma bebida que vai encantar seus sentidos. Cada gole oferece uma explosão de frescor e um toque tropical que vai te transportar para os pomares exuberantes de goiabeiras.</p>
+        </section>
+    
+        <section class="hero">
+            <div class="hero-description">
+                <div class="hero-text">
+                    <h1>Del Valle Sabor Pêssego</h1>
+                    <p>Desfrute da doçura e dos benefícios do pêssego em cada gole com Del Valle Frut! Nossa nova receita captura o sabor suave e refrescante do pêssego em uma bebida que vai encantar seus sentidos. Cada gole oferece uma experiência única, trazendo consigo o aroma e a doçura característicos dos pomares de pêssego.</p>
+                </div>
+                <img src="src/img/pessego.png" alt="">
             </div>
-        </div>
+        </section> 
     </section>
-
-    <section class="hero">
-        <div class="hero-description">
-            <div class="hero-text">
-                <h1>Del Valle Sabor Pêssego</h1>
-                <p>Desfrute da doçura e dos benefícios do pêssego em cada gole com Del Valle Frut! Nossa nova receita captura o sabor suave e refrescante do pêssego em uma bebida que vai encantar seus sentidos. Cada gole oferece uma experiência única, trazendo consigo o aroma e a doçura característicos dos pomares de pêssego.</p>
-            </div>
-            <img src="src/img/pessego.png" alt="">
-        </div>
-    </section> 
 
     <section id="campanha" class="campanha">
         <div class="campanha_description">
@@ -91,7 +99,7 @@
             <p>Viva uma explosão de sabores com os sucos Del Valle! Cada gole é uma jornada refrescante que eleva sua energia e vitalidade. Feitos com os melhores ingredientes, nossos sucos proporcionam momentos de puro prazer em cada garrafa, tornando suas refeições ainda mais incríveis. Del Valle Frut é o toque de frescor e sabor que você merece, uma experiência irresistível que te convida a descobrir o melhor da vida!</p>
         </div>
 
-        <iframe width="1000" height="500" src="https://www.youtube.com/embed/wRURq61Fsg0?si=UlJDcB6rxdCBYXY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="1200" height="500" src="https://www.youtube.com/embed/wRURq61Fsg0?si=UlJDcB6rxdCBYXY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
     <section id="time" class="time">
@@ -99,18 +107,31 @@
             <h1>Time</h1>
             <p>Conheça um pouco mais sobre a equipe de criação</p>
         </div>
-        <div class="time_member">
-            <img src="src/img/cybe.png" alt="Cybelle">
-            <div class="member_description">
-                <h1>Cybelle Monteiro</h1>
-                <p class="text">Design Web</p> <br>
-                <p>Mantém sites e aplicativos usando linguagens como HTML, CSS e JavaScript. Garantem a funcionalidade, design e usabilidade dos produtos digitais, colaborando com designers e otimizando o desempenho e a segurança dos sites.</p>
-                <a href="https://www.linkedin.com/in/cybelle-monteiro-b20331278/"><img src="src/img/LinkedIn.png" alt="LinkedIn"></a>
-                <a href="https://github.com/Cybellee"> <img src="src/img/github.png" alt="github"></a>
+        <div class="time_all">
+            <div class="time_member">
+                <img src="src/img/cybe.png" alt="Cybelle">
+                <div class="member_description">
+                    <h1>Cybelle Monteiro</h1>
+                    <p class="text">Design Web</p> <br>
+                    <p>Mantém sites e aplicativos usando linguagens como HTML, CSS e JavaScript. Garantem a funcionalidade, design e usabilidade dos produtos digitais, colaborando com designers e otimizando o desempenho e a segurança dos sites.</p>
+                    <a href="https://www.linkedin.com/in/cybelle-monteiro-b20331278/"><img src="src/img/LinkedIn.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/Cybellee"> <img src="src/img/github.png" alt="github"></a>
+                </div>
+            </div>
+            <div class="time_member">
+                <img src="src/img/Lucas.png" alt="Cybelle">
+                <div class="member_description">
+                    <h1>Lucas Valadão</h1>
+                    <p class="text">Desenvolvedor Web</p> <br>
+                    <p>Mantém sites e aplicativos usando linguagens como HTML, CSS e JavaScript. Garantem a funcionalidade, design e usabilidade dos produtos digitais, colaborando com designers e otimizando o desempenho e a segurança dos sites.</p>
+                    <a href="https://www.linkedin.com/in/lucas-valad%C3%A3o-1ba331278/"><img src="src/img/LinkedIn.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/lucasmvaladao"> <img src="src/img/github.png" alt="github"></a>
+                </div>
             </div>
         </div>
+        
     </section>
-
+    
     <script src="src/js/script.js"></script>
 </body>
 </html>
