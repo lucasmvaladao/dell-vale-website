@@ -1,10 +1,11 @@
 .time{
     margin-top: 125px;
     margin-left: 70px;
+    margin-right: 70px;
 }
 .time_all{
     display: flex;
-    gap: 126px;
+    justify-content: space-between;
 }
 .time_description{
     display: flex;

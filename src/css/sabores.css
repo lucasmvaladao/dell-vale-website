@@ -1,3 +1,13 @@
+:root {
+    --uva:      linear-gradient(183deg, #CC8EBA -32.47%, #7E134F 97.72%);
+    --manga:    linear-gradient(104deg, #DFC34A 2.17%, #E2782D 68%);
+    --maracuja: linear-gradient(104deg, #DFC34A 2.17%, #E2782D 68%);
+    --goiaba:   linear-gradient(104deg, #E98D83 2.17%, #96332D 68%);
+    --pessego:  linear-gradient(104deg, #FF9A07 2.17%, #D70000 68%);
+  }
+
+
+
 .container-sabores{
     margin-top: 300px;
 }
@@ -19,6 +29,7 @@
 .hero-text {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -28,10 +39,10 @@ h1{
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 48px */
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
-.hero-text > p{
+ p{
     color:  #000;
     font-family: Murecho;
     font-size: 20px;
@@ -53,15 +64,44 @@ h1{
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 30px */
+    display: flex;
+    justify-content: space-between;
 }
-
+.panel{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 .response-panel {
-    width: 80%;
-    background-color: #eee;
+    width: 100%;
+    background-color: #E4E4E4;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+.response-panel h1{
+    color: #000;
+    text-align: center;
+    font-family: Murecho;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description_panel > p{
+    color: #000;
+    text-align: center;
+    font-family: Murecho;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 
 .question-panel:after {
     content: '\25B6'; /* Adiciona o símbolo "▶" após o texto do botão */
@@ -69,8 +109,52 @@ h1{
     font-weight: bold; /* Define a fonte como negrito */
     float: right; /* Alinha o símbolo "▶" à direita */
     margin-left: 5px; /* Adiciona margem à esquerda do símbolo "▶" */
+    transition: transform 0.5s ease; /* Adiciona uma transição mais lenta para a transformação */
 }
 
 .active:after {
     content: "\25BC"; /* Altera o símbolo "▶" para "▼" quando o botão está ativo (aberto) */
+    transform: rotate(180deg); /* Gira o símbolo "▶" 180 graus (para baixo) */
+}
+
+
+.response-panel{
+    text-align: center;
+}
+
+.description_panel{
+    border: 1px solid #7E134F;
+    width: 110px;
+    height: 60px;
+    border-radius: 10px;
+}
+.retan-panel{
+    align-items: center;
+    width: 110px;
+    height: 20px;
+    border-radius: 9px 9px 0px 0px;
+}
+.retan-panel > p{
+    color: #000;
+    text-align: center;
+    font-family: Murecho;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text_panel{
+    text-align: center;
+}
+.text_panel > p{
+    color: #000;
+    font-family: Murecho;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.hero-description img{
+    box-shadow: 6px 22px 50px 0px rgba(0, 0, 0, 0.25);
 }
