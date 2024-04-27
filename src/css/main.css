@@ -3,15 +3,6 @@
     padding-top: 100px;
 }
 
-main .slider img {
-    z-index: -1; /* Colocado no fundo */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Redimensiona a imagem para cobrir todo o espaço */
-}
 
 /* Estilos para o texto na main */
 main .main-description p {
