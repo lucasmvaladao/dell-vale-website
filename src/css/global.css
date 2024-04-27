@@ -7,13 +7,14 @@
 @import url(sabores.css);
 @import url(campanha.css);
 @import url(time.css);
-
+@import url(footer.css);
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
 
 }
 

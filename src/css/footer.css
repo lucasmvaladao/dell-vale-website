@@ -1,0 +1,161 @@
+/* footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 582px;
+
+}
+
+footer > img {
+    width: 290px;
+    height: 60px;
+    margin-top: 72px; */
+    /* padding-left: 96px; */
+/* } */
+
+/* .linha{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center;
+    width: 992px;
+    height: 2px;
+    background-color: #D5D5D5; */ 
+    /* padding-top: 160px; */
+/* } */
+
+/* .primeira{
+    border: 1px solid white;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between; */
+    /* padding-top: 25px; */
+/* } */
+
+/* .segunda{
+    border: 1px solid white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.primeira > .location-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border: 3px solid white;
+    padding: 8px 26px;
+    border-radius: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    
+} */
+
+/* div > button > img{
+    width: 24px;
+    height: 24px;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Murecho;
+    font-size: 10px;
+    color: #fff; */
+    /* gap: 150px; */
+/* } */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    font-family: Murecho;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 600px;
+}
+button{
+    background-color: transparent;
+    color: #fff;
+}
+.logo-location {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid white;
+    padding: 8px 20px;
+    border-radius: 48px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.logo-location img {
+    width: 25px; /* ajuste o tamanho conforme necessário */
+    margin-right: 10px;
+}
+
+.footer-divider {
+    border: 0;
+    width: 992px;
+    height: 2px;
+    border-top: 2px solid #D5D5D5;
+    margin: 50px ;
+}
+
+.footer-info {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+.info-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.info-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.info-section ul {
+    list-style: none;
+    padding: 0;
+    color: fff;
+}
+
+.info-section ul li {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.social-media{
+    display: flex;
+    gap: 3px;
+}
+
+.social-media > a > img {
+    color: #D5D5D5;
+    width: 45px;
+    height: 40px;
+}
+
+.copyright{
+    font-size: 15px;
+    color: #fff;
+    align-self: flex-end;
+    margin-right: 10px;
+}
