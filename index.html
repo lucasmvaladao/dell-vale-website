@@ -5,92 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Del Valle</title>
     <link rel="stylesheet" href="src/css/global.css">
+
     <link rel="stylesheet" href="./src/css/header.css">
-    <link rel="icon" href="src/img/logosite.svg" type="image/icon">
+    <link rel="icon" href="src/img/logosite.png" type="image/icon">
 </head>
 <body>
-    <header>
-        <img src="src/img/logodelvalle.svg" alt="logo del valle">
-        <div class="navegation">
-            <nav class="navegation-itens">
-                <a target="_self" href="#sabores">Sabores</a>
-                <a target="_self" href="#campanha">Campanhas</a>
-                <a target="_self" href="#time">Time</a>
-                <a target="_self" href="#contatos">Contatos</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-            <div class="slider">
-                <img src="src/img/manga bg.png" alt="">
-            </div>
-            <div class="main-description">
-                <p>
-                    Desfrute de um <br>
-                    sabor autêntico que <br>
-                    transforma sua <br>
-                    rotina
-                </p>
-                <a href="https://andina.nasuacasa.coca-cola.com.br/">Comprar</a>
-            </div>
-            
-    </main>
+    <section class="bg">
 
-    <section class="container-sabores">
-        <section id="sabores" class="hero">
-            <div class="hero-description">
-                <div class="hero-text">
-                    <h1>Del Valle Sabor Manga</h1>
-                    <p>Desfrute do sabor tropical da manga em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura da manga em uma bebida refrescante, perfeita para suas refeições em família. Com 60% menos açúcares que a média do mercado, você pode saborear cada gota sem preocupações, enquanto aproveita a energia da vitamina C que ela proporciona.</p>
-                    
-                    <!-- <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>        
-                    <div class="response-panel">       
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book....</p>
-                    </div> -->
-                </div>
-                <img src="src/img/manga 1.png" alt="">
+        <header>
+            <img src="src/img/logodelvalle.svg" alt="logo del valle">
+            <div class="navegation">
+                <nav class="navegation-itens">
+                    <a target="_self" href="#sabores">Sabores</a>
+                    <a target="_self" href="#campanha">Campanhas</a>
+                    <a target="_self" href="#time">Time</a>
+                    <a target="_self" href="#contatos">Contatos</a>
+                </nav>
             </div>
+        </header>
+
+        <main>
+                <div class="main-description">
+                    <p>
+                        Desfrute de um <br>
+                        sabor autêntico que <br>
+                        transforma sua <br>
+                        rotina
+                    </p>
+                    <a href="https://andina.nasuacasa.coca-cola.com.br/">Comprar</a>
+                </div>
+                
+        </main>
+    </section>
+
+    <section id="sabores" class="container-sabores">
+        <section class="body">
+            <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <main id="carousel">
+                <div class="item">
+                    <section class="hero">
+                        <div class="hero-container">
+                            <img src="src/img/manga 1.png" alt="">
+
+                            <div class="hero-description">
+                                <div class="hero-text">
+                                    <h1>Del Valle Sabor Manga</h1>
+                                    <p>Desfrute do sabor tropical da manga em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura da manga em uma bebida refrescante, perfeita para suas refeições em família.</p>
+                                </div>
+
+                                <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>        
+                                
+                            </div>
+
+                        </div> 
+                    </section>       
+                </div>
+
+                <div class="item">
+                    <section class="hero">
+                        <div class="hero-container">
+                            <img src="src/img/uva.png" alt="">
+
+                            <div class="hero-description">
+                                <div class="hero-text">
+                                    <h1>Del Valle Sabor Uva</h1>
+                                    <p>Desfrute da elegância e nutrição da uva em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura natural da uva em uma bebida refrescante, perfeita para suas refeições.</p>
+                                </div>
+
+                                <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>         
+                            </div>
+
+                        </div> 
+                    </section>  
+                </div>
+
+                <div class="item">
+                    <section class="hero">
+                        <div class="hero-container">
+                            <img src="src/img/maracujá 1.png" alt="">
+                            <div class="hero-description">
+                                <div class="hero-text">
+                                    <h1>Del Valle Sabor Maracujá</h1>
+                                    <p>Descubra o delicioso sabor e os incríveis benefícios do maracujá com Del Valle Frut! Nossa nova receita captura a essência exótica e o sabor único do maracujá em uma bebida refrescante.</p>
+                                </div>
+                                <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>         
+                            </div>
+                        </div> 
+                    </section>  
+                </div>
+
+                <div class="item">
+                    <section class="hero">
+                        <div class="hero-container">
+                            <img src="src/img/goiaba 1.png" alt="">
+                            <div class="hero-description">
+                                <div class="hero-text">
+                                    <h1>Del Valle Sabor Goiaba</h1>
+                                    <p>Desfrute da suculência e dos benefícios da goiaba em cada gole com Del Valle Frut! Nossa nova receita captura o sabor delicado e a doçura natural da goiaba em uma bebida que vai te encantar.</p>
+                                </div>
+                                <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>         
+                            </div>
+                        </div> 
+                    </section>  
+                </div>
+
+                <div class="item">
+                    <section class="hero">
+                        <div class="hero-container">
+                            <img src="src/img/pessego.png" alt="">
+                            <div class="hero-description">
+                                <div class="hero-text">
+                                    <h1>Del Valle Sabor Pêssego</h1>
+                                    <p>Desfrute da doçura e dos benefícios do pêssego em cada gole com Del Valle Frut! Nossa nova receita captura o sabor suave e refrescante do pêssego em uma bebida que vai encantar seus sentidos.</p>
+                                </div>
+                                <button class="question-panel">INFORMAÇÕES NUTRICIONAIS</button>         
+                            </div>
+                        </div> 
+                    </section>  
+                </div>
+            <main>
         </section>
-    
-        <section class="hero">
-            <div class="hero-description">
-                <img src="src/img/uva.png" alt="">
-                <div class="hero-text">
-                    <h1>Del Valle Sabor Uva</h1>
-                    <p>Desfrute da elegância e nutrição da uva em cada gole com Del Valle Frut! Nossa nova receita traz toda a suculência e doçura natural da uva em uma bebida refrescante, perfeita para suas refeições em família. Com 60% menos açúcares que a média do mercado, você pode saborear cada gota sem preocupações com excesso de açúcar.</p>
-                </div>
-            </div>
-        </section>
-    
-        <section class="hero">
-            <div class="hero-description">
-                <div class="hero-text">
-                    <h1>Del Valle Sabor Maracujá</h1>
-                    <p>Descubra o delicioso sabor e os incríveis benefícios do maracujá com Del Valle Frut! Nossa nova receita captura a essência exótica e o sabor único do maracujá em uma bebida refrescante e deliciosa, perfeita para suas refeições em família. Cada gole oferece uma explosão de frescor e um toque tropical que vai encantar seus sentidos.</p>
-                </div>
-                <img src="src/img/maracujá 1.png" alt="">
-            </div>
-        </section>
-    
-        <section class="hero">
-            <div class="hero-description">
-                <img src="src/img/goiaba 1.png" alt="">
-                <div class="hero-text">
-                    <h1>Del Valle Sabor Goiaba</h1>
-                    <p>Desfrute da suculência e dos benefícios da goiaba em cada gole com Del Valle Frut! Nossa nova receita captura o sabor delicado e a doçura natural da goiaba em uma bebida que vai encantar seus sentidos. Cada gole oferece uma explosão de frescor e um toque tropical que vai te transportar para os pomares exuberantes de goiabeiras.</p>
-                </div>
-            </div>
-        </section>
-    
-        <section class="hero">
-            <div class="hero-description">
-                <div class="hero-text">
-                    <h1>Del Valle Sabor Pêssego</h1>
-                    <p>Desfrute da doçura e dos benefícios do pêssego em cada gole com Del Valle Frut! Nossa nova receita captura o sabor suave e refrescante do pêssego em uma bebida que vai encantar seus sentidos. Cada gole oferece uma experiência única, trazendo consigo o aroma e a doçura característicos dos pomares de pêssego.</p>
-                </div>
-                <img src="src/img/pessego.png" alt="">
-            </div>
-        </section> 
     </section>
 
     <section id="campanha" class="campanha">
@@ -131,29 +169,6 @@
         </div>
         
     </section>
-
-    <!-- <Footer>
-        <div class="linha"> </div>
-        <div class="primeira">
-            <img src="src/img/logo-coca.svg" alt="logo-coca">
-            <button class="location-button">Brasil
-                <img src="src/img/logo-acessibilidade.svg" alt="localização">
-            </button>
-            
-        </div>
-        <div class="segunda">
-            <ul>
-                <li>Sobre</li>
-                <li>Precisa de ajuda?</li>
-            </ul>
-        </div>
-        <div class="terceira">
-
-        </div>
-        
-    </Footer> -->
-    
-    
     <footer>
         <div class="footer-content">
             <img src="src/img/logo-coca.svg" alt="logo-coca">
